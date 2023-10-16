@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Halaman Login</title>
+	<meta charset="utf-8">
+  	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<style type="text/css">
 		*{
 			font-family: sans-serif;
@@ -33,7 +35,7 @@
 <label>Password</label><br>
 <input type="password" name=""><br><br>
 <button>Login</button>
-<button><a href="register.html">Register</a></button>
+<button><a href="register.php">Register</a></button>
 </form>
 </div>
 <?php if(isset($_GET['status'])):?>
@@ -46,6 +48,6 @@
 	}
 	?>
 </p>
-<?php endif; ?>
+<?php endif;?>
 </body>
 </html>
