@@ -11,7 +11,7 @@ if(isset($_POST['save'])){
  	$query = mysqli_query($db, $sql);
 
  	if($query){
- 		header('Location: user-table.php');
+ 		header('Location:tables.php');
  	}else{
  		die("Gagal menyimpan perubahan!");
  	}
