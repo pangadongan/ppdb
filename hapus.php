@@ -5,7 +5,7 @@ if (isset($_GET['id'])) {
 	$sql = "DELETE FROM user WHERE id_user=$id";
 	$query = mysqli_query($db,$sql);
 	if ($query) {
-		header('Location: user-table.php');
+		header('Location: tables.php');
 	}else{
 		die("gagal menghapus...");
 	}
